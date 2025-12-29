@@ -23,7 +23,7 @@ What entities are involved in this task?
 ```bash
 # Find processes involving these entities
 grep -r "entities/people/mubeen" _LORE/processes/
-grep -r "entities/systems/clickup" _LORE/processes/
+grep -r "entities/systems/linear" _LORE/processes/
 ```
 
 Or search by keyword:
@@ -37,7 +37,7 @@ grep -ri "review" _LORE/processes/
 ```bash
 # Find decisions that might override standard process
 grep -r "entities/people/mubeen" _LORE/decisions/
-grep -r "entities/systems/clickup" _LORE/decisions/
+grep -r "entities/systems/linear" _LORE/decisions/
 ```
 
 **Decisions override processes.** If a decision applies, follow it.

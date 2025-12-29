@@ -61,7 +61,7 @@ _LORE/
 ├── README.md              # Principles
 ├── entities/
 │   ├── people/            # Who's who
-│   ├── systems/           # ClickUp, GitLab, Slack, etc.
+│   ├── systems/           # Linear, GitLab, Slack, etc.
 │   ├── features/          # What you're building
 │   └── concepts/          # Ideas worth tracking
 ├── processes/             # How to do things

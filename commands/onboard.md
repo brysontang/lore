@@ -70,7 +70,7 @@ Ask: "Who works on this? What do they own?"
 
 For each person:
 - Name, role, responsibilities
-- IDs across systems (ClickUp ID, GitLab username, Slack handle)
+- IDs across systems (Linear ID, GitLab username, Slack handle)
 - Any working patterns worth noting
 
 Then ask: "Who do I go to for X? Who should I NOT bother for Y?"

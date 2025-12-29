@@ -1,0 +1,15 @@
+{
+  "name": "brysontang-plugins",
+  "description": "Plugins by Bryson Tang",
+  "version": "1.0.0",
+  "plugins": [
+    {
+      "name": "lore",
+      "source": "./",
+      "description": "Tribal knowledge system for AI agents. The graph grows through use. Mistakes become patterns. The system learns.",
+      "version": "1.0.0",
+      "category": "knowledge-management",
+      "tags": ["knowledge", "context", "memory", "tribal-knowledge", "onboarding"]
+    }
+  ]
+}

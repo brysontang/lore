@@ -19,6 +19,41 @@ _LORE/entities/{type}/{name}.md
 
 Types: `people`, `systems`, `features`, `concepts`
 
+## Rules
+
+1. **One entity per file.** If you feel the urge to cluster (multiple people in one file, multiple apps in one file), resist. Create separate files. Each entity is a node in the graph. You can't link to a heading inside a file.
+
+2. **INDEX.md for navigation.** If a folder has many entities, create an INDEX.md that links to them all. The index is for humans browsing — not a substitute for individual files.
+
+3. **Always capture IDs.** They're the bridge to live MCP data.
+
+4. **Link to other entities.** Use `[[relative/path]]` from _LORE root.
+
+5. **Stub is fine.** Fill what you know, note what's missing.
+
+6. **Update on encounter.** Entity files grow through use.
+
+## Examples
+
+**Good:**
+```
+entities/systems/
+├── INDEX.md
+├── myapp-desktop.md
+├── myapp-mobile.md
+├── myapp-backend.md
+├── linear.md
+└── slack.md
+```
+
+**Bad:**
+```
+entities/systems/
+├── applications.md    ← Three apps crammed in one file
+├── linear.md
+└── slack.md
+```
+
 ## Templates
 
 ### Person
@@ -31,7 +66,7 @@ Types: `people`, `systems`, `features`, `concepts`
 - Owns: [[entities/features/...]], [[entities/systems/...]]
 
 ## System IDs
-- ClickUp: [ID]
+- Linear: [ID]
 - GitLab: @username
 - Slack: @handle
 
@@ -92,10 +127,3 @@ Types: `people`, `systems`, `features`, `concepts`
 ## Related
 [[links to related entities]]
 ```
-
-## Rules
-
-1. **Always capture IDs.** They're the bridge to live MCP data.
-2. **Link to other entities.** Use `[[relative/path]]` from _LORE root.
-3. **Stub is fine.** Fill what you know, note what's missing.
-4. **Update on encounter.** Entity files grow through use.

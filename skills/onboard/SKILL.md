@@ -71,7 +71,7 @@ Do it together. Document what worked.
 
 For each person:
 - Name, role, responsibilities
-- IDs across systems (ClickUp ID, GitLab username, Slack handle)
+- IDs across systems (Linear ID, GitLab username, Slack handle)
 - Any working patterns worth noting
 
 Ask: "Who do I go to for X? Who should I not bother for Y?"

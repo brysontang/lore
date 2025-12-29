@@ -1,0 +1,12 @@
+{
+  "name": "lore",
+  "description": "Tribal knowledge system for AI agents. The graph grows through use. Mistakes become patterns. The system learns.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Bryson Tang",
+    "url": "https://github.com/brysontang"
+  },
+  "repository": "https://github.com/brysontang/lore",
+  "license": "MIT",
+  "keywords": ["knowledge", "context", "agents", "memory", "tribal-knowledge"]
+}
